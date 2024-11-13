@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Unimangas - Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='login.css' rel='stylesheet'>
+    <link rel='icon' href='icone.ico'>
+  </head>
+  <body>
+    <form class="container" id="loginForm">
+      <h1 class="login-title">Registrar</h1>
+
+      <section class="input-box">
+        <input type="text" name="usuario" id="usuario" placeholder="Nome de usuário" required>
+        <i class="fa-solid fa-user"></i>
+      </section>
+      <section class="input-box">
+        <input type="password" name="senha" id="senha" placeholder="Senha" required>
+        <i class="fa-solid fa-lock"></i>
+      </section>
+      <section class="input-box">
+        <input type="password" name="senha" id="senha" placeholder="Repita a senha" required>
+        <i class="fa-solid fa-lock"></i>
+      </section>
+
+      <section class="remember-box">
+        <div class="remember">
+          <input type="checkbox" name="lembrar" class="rmbr" id="lembrar">
+          <label for="lembrar"><h5>Lembrar de mim</h5></label>
+        </div>
+        <a class="forgot" href="#"><h5>Esqueceu sua senha?</h5></a>
+      </section>
+
+      <button class="lgn-btn" type="submit" href="index.html">Registrar</button>
+
+      <a href="index.html" class="back"><b>Voltar</b></a>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
